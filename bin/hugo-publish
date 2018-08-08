@@ -14,4 +14,4 @@ docker container run --rm \
     -p 1313:1313 \
     -v ${DIR}/../:/var/www \
     -w /var/www \
-    ${IMAGE} hugo
+    ${IMAGE} hugo --theme hugo-paper
